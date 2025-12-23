@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hong Kong Temperature Map</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <canvas id="canvas"></canvas>
+    <div id="ui-overlay">
+      <header>
+        <img src="THEiLogo.jpg" alt="THEi" class="thei-logo">
+        <div style="margin-left: 190px;">
+          <h1>香港</h1>
+          <p class="subtitle">Real-time Temperature Map</p>
+        </div>
+      </header>
+      <div id="legend">
+        <h3>Temperature</h3>
+        <div class="legend-scale">
+          <div class="gradient-bar"></div>
+          <div class="scale-labels">
+            <span>15°C</span>
+            <span>20°C</span>
+            <span>25°C</span>
+            <span>30°C</span>
+          </div>
+        </div>
+      </div>
+      <div id="tooltip"></div>
+    </div>
+    <div id="loading">
+      <div class="loader"></div>
+      <p>Loading Hong Kong...</p>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
+
