@@ -126,87 +126,87 @@ export const hongKongOutline = {
   ]
 };
 
-// Temperature data for various Hong Kong locations
+// Temperature data for various Hong Kong locations (matching reference map)
 export const temperatureLocations = [
   {
-    name: "Central",
-    name_zh: "中環",
-    coordinates: [114.158, 22.280],
-    temperature: 24,
-    humidity: 78,
-    district: "Central and Western"
+    name: "Sheung Shui",
+    name_zh: "上水",
+    coordinates: [114.13, 22.51],
+    temperature: 21,
+    humidity: 82,
+    district: "North"
   },
   {
-    name: "Tsim Sha Tsui",
-    name_zh: "尖沙咀",
-    coordinates: [114.172, 22.298],
-    temperature: 25,
-    humidity: 75,
-    district: "Yau Tsim Mong"
-  },
-  {
-    name: "Mong Kok",
-    name_zh: "旺角",
-    coordinates: [114.168, 22.318],
-    temperature: 26,
-    humidity: 72,
-    district: "Yau Tsim Mong"
-  },
-  {
-    name: "Sha Tin",
-    name_zh: "沙田",
-    coordinates: [114.195, 22.380],
-    temperature: 23,
+    name: "Tai Po",
+    name_zh: "大埔",
+    coordinates: [114.18, 22.45],
+    temperature: 22,
     humidity: 80,
-    district: "Sha Tin"
+    district: "Tai Po"
   },
   {
     name: "Tuen Mun",
     name_zh: "屯門",
-    coordinates: [113.970, 22.395],
-    temperature: 22,
-    humidity: 82,
+    coordinates: [113.95, 22.39],
+    temperature: 23,
+    humidity: 78,
     district: "Tuen Mun"
   },
   {
-    name: "Tai O",
-    name_zh: "大澳",
-    coordinates: [113.860, 22.250],
-    temperature: 21,
-    humidity: 85,
-    district: "Islands"
+    name: "Sha Tin",
+    name_zh: "沙田",
+    coordinates: [114.20, 22.38],
+    temperature: 24,
+    humidity: 76,
+    district: "Sha Tin"
   },
   {
-    name: "Victoria Peak",
-    name_zh: "太平山",
-    coordinates: [114.145, 22.270],
-    temperature: 20,
-    humidity: 88,
-    district: "Central and Western"
+    name: "Tsuen Wan",
+    name_zh: "荃灣",
+    coordinates: [114.11, 22.37],
+    temperature: 24,
+    humidity: 75,
+    district: "Tsuen Wan"
   },
   {
     name: "Sai Kung",
     name_zh: "西貢",
-    coordinates: [114.270, 22.380],
+    coordinates: [114.35, 22.38],
     temperature: 22,
-    humidity: 83,
+    humidity: 80,
     district: "Sai Kung"
   },
   {
-    name: "Causeway Bay",
-    name_zh: "銅鑼灣",
-    coordinates: [114.185, 22.280],
-    temperature: 25,
-    humidity: 76,
-    district: "Wan Chai"
+    name: "Kowloon",
+    name_zh: "九龍",
+    coordinates: [114.18, 22.315],
+    temperature: 26,
+    humidity: 72,
+    district: "Kowloon"
   },
   {
-    name: "Kowloon City",
-    name_zh: "九龍城",
-    coordinates: [114.187, 22.330],
-    temperature: 26,
+    name: "Hong Kong",
+    name_zh: "香港",
+    coordinates: [114.17, 22.28],
+    temperature: 25,
     humidity: 74,
-    district: "Kowloon City"
+    district: "Central"
+  },
+  {
+    name: "Aberdeen",
+    name_zh: "香港仔",
+    coordinates: [114.155, 22.24],
+    temperature: 24,
+    humidity: 76,
+    district: "Southern"
+  },
+  {
+    name: "Lantau",
+    name_zh: "大嶼山",
+    coordinates: [113.94, 22.26],
+    temperature: 22,
+    humidity: 82,
+    district: "Islands"
   }
 ];
 
